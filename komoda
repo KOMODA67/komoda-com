@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Ropa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tienda de Ropa</h1>
+        <nav>
+            <ul>
+                <li><a href="#camisetas">Camisetas</a></li>
+                <li><a href="#pantalones">Pantalones</a></li>
+                <li><a href="#accesorios">Accesorios</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="camisetas">
+            <h2>Camisetas</h2>
+            <div class="producto">
+                <img src="camiseta1.jpg" alt="Camiseta 1">
+                <h3>Camiseta Clásica</h3>
+                <p>$20.00</p>
+                <button>Comprar</button>
+            </div>
+            <!-- Más productos pueden ser añadidos aquí -->
+        </section>
+        <section id="pantalones">
+            <h2>Pantalones</h2>
+            <div class="producto">
+                <img src="pantalones1.jpg" alt="Pantalones 1">
+                <h3>Pantalón Casual</h3>
+                <p>$40.00</p>
+                <button>Comprar</button>
+            </div>
+            <!-- Más productos pueden ser añadidos aquí -->
+        </section>
+        <section id="accesorios">
+            <h2>Accesorios</h2>
+            <div class="producto">
+                <img src="sombrero1.jpg" alt="Sombrero 1">
+                <h3>Sombrero Verano</h3>
+                <p>$15.00</p>
+                <button>Comprar</button>
+            </div>
+            <!-- Más productos pueden ser añadidos aquí -->
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Tienda de Ropa. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
